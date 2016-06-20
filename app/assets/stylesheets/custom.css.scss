@@ -13,6 +13,26 @@ $navbar-default-bg: #080808;
   
 }
 
+.jumbotron
+{
+  background-image: asset-url("jumbo-bg.jpg");
+  background-size: cover;
+  
+  
+}
 
+.jumbotron h1
+{
+  text-align: left;
+  color:   #ffffff;
+  margin-bottom: 30px;
+  letter-spacing: -1px; 
+}
 
+footer{
+  margin-top:45px;
+  padding-top:5px;
+  border-top:1px;
+  
+}
 
