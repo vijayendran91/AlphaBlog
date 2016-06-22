@@ -29,10 +29,23 @@ $navbar-default-bg: #080808;
   letter-spacing: -1px; 
 }
 
-footer{
+.footer{
   margin-top:45px;
   padding-top:5px;
   border-top:1px;
+  
+}
+
+.article-actions
+{
+  border-top: 1px solid #eaeaea;
+  padding-top:5px;
+  
+}
+
+.description
+{
+  margin-top:0;
   
 }
 
