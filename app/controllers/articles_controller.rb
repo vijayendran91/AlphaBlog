@@ -5,7 +5,8 @@ class ArticlesController < ApplicationController
   end
 
   def create
-   
+    debugger
+    @article.user=User.first
     @article=Article.new(article_params)
     @article.save
     if @article.save
@@ -50,6 +51,3 @@ class ArticlesController < ApplicationController
   end
 
 end
-
-
-
